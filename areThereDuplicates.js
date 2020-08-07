@@ -27,4 +27,4 @@ function areThereDuplicates() {
         }
     }
      return false;
-}
+};
