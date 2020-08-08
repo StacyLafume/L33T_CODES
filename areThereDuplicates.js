@@ -20,7 +20,6 @@ function areThereDuplicates() {
         let currentArg = args[i];
         argsList[currentArg] ? argsList[currentArg] += 1: argsList[currentArg] = 1
     }
-    console.log("this is argsList", argsList)
     for (let two in argsList) {
         if (argsList[two] > 1) {
             return true;
