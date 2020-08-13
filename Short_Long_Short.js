@@ -17,3 +17,6 @@ const solution = (a, b) => {
     }
   }
   
+
+  // one line of code 
+  const solution2 = (a, b) => a.length < b.length ?  a + b + a :  b + a + b
